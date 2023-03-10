@@ -1,0 +1,117 @@
+.HomeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    max-width: 1600px;
+    width: 100%;
+    margin: 1rem auto 0;
+    gap: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.HomeContainer section {
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HomeContainer section h2 {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+}
+
+.HomeContainer section:nth-child(1) h2 {
+    background-color: #01aa4d;
+}
+
+.HomeContainer section:nth-child(2) h2{
+    background-color: #6e57a4;
+}
+
+.HomeContainer section:nth-child(3) h2 {
+    background-color: #03a2bb;
+}
+
+.routeLinks {
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.routeLinks .mathematicRoute {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #07771f;
+    border-radius: 4px;
+}
+
+.routeLinks .mathematicRoute:hover {
+    background-color: #26ad43;
+    border-color: #26ad43;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.routeLinks .pshycsRoute {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #8b78b9;
+    border-radius: 4px;
+}
+
+.routeLinks .pshycsRoute:hover {
+    background-color: #a48fd5;
+    border-color: #a48fd5;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.routeLinks .chemicalRoute {
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #24a7bb;
+    border-radius: 4px;
+}
+
+.routeLinks .chemicalRoute:hover {
+    background-color: #01c6e4;
+    border-color: #01c6e4;
+    transition: background-color 0.2s, border-color 0.2s;
+}
